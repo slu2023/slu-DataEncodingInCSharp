@@ -37,6 +37,11 @@ public class Cipher
             //      Instead, you should to encrypt each character using the shift
             newMessage += c;
         }
+
+        char b;
+        //     b = (char)('z' + 3);
+        //     Console.WriteLine($"'z' + 3 = '{b}'");
+
         return newMessage;
     }
 
